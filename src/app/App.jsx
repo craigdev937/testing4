@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import { Main } from "../components/Main";
+import { Greeting } from "../components/Greeting";
 
 export const App = () => {
     return (
         <React.Fragment>
-            <Main />
+            <Greeting />
         </React.Fragment>
     );
 };
